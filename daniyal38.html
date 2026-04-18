@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform property in CSS</title>
+    <style>
+        
+
+        .container{
+            background-color: blue;
+            height: 80vh;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            
+        }
+        .box{
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            justify-content: center;
+            align-items: center;
+            font-size: 34px;
+            font-weight: bold;
+            flex-direction: row;
+            border: 2px solid black;
+            display: flex;
+            transition: all 1s ease-in-out;
+        }
+        
+        .box:hover{
+            /* transform: rotate(360deg);
+            transform: skew(40deg);
+            transform: scale(3); */
+            /* transform: matrix(400px); */
+            transform: translate(123px);
+         
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">this is a bxo</div>
+    </div>
+</body>
+</html>

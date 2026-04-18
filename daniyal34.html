@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Text Shadow</title>
+    <style>
+        .container{
+            display: flex;
+            color: green;
+        }
+        
+        .card{
+            /* border: 10px solid red; */
+            margin: 25px 12px;
+            padding: 12px 26px;
+            background-color: aqua;
+            /* box-shadow: 10px 23px green */
+            /* is say box shadow box k center rahe gi  */
+            /* box-shadow: -10px -24px red; */
+            /* is negative property say box shadow box k oper ho jay gi */
+            /* box-shadow: +10px +24px red; */
+            /* is Positive property say box shadow box k neeche ho jay gi */
+            /* box-shadow: 10px 23px 15px green */
+            /* is SAY Blut property say box shadow box k peeche color blur ho jay gi */
+            /* box-shadow: 10px 23px 15px 34px green */
+            /* is say Spread radius property kehte hai box k peeche color spread ho jay ga */
+            box-shadow: 10px 20px green, 20px 5px red
+            /* is Say hum multiple color de sakte hai box k andar */
+        }
+
+        h2{
+            /* text-shadow: +15px +10px red; */
+            /* text-shadow: 15px 10px 24px red; */
+            text-shadow: 15px 10px 24px 34px blue;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">card 1
+            <h2>This is c++ course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ullam aspernatur amet quas ab nam sunt! Consequuntur adipisci modi ab. Sint sapiente ipsam tempore sequi suscipit reiciendis. Ducimus, harum possimus?
+            </p>
+        </div>
+        <div class="card" id="card-1">card 2
+            <h2>This is html course</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere perspiciatis tempore quos laboriosam necessitatibus nostrum vitae, dolor consequuntur ipsam doloribus, minus ex eos non cumque repudiandae distinctio fuga fugiat! Aliquid?</p>
+        </div>
+        <div class="card" id="card-1">card 3
+            <h2>this is best coding course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto laborum dolorum fugit ipsum? Temporibus sint veritatis culpa laborum dignissimos voluptatibus blanditiis, illo expedita sed? Possimus voluptatibus exercitationem facilis neque beatae.</p>
+        </div>
+        <div class="card" id="card-1">card 4
+            <h2>this is advance level course</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia autem aspernatur sapiente ex odit. Delectus tempora aliquid beatae officia porro, cum perspiciatis doloremque error, velit quae maxime? Excepturi, quas praesentium?</p>
+        </div>
+        <div class="card" id="card-1">card 5
+            <h2>card 5</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, perspiciatis! Excepturi iusto quisquam quam sit minus quia adipisci. Qui, minus commodi voluptate tenetur consequuntur minima incidunt ducimus eaque beatae omnis.</p>
+        </div>
+    </div>
+</body>
+</html>

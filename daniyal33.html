@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before & After psuedo selectors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<style>
+    .navigation{
+        display: flex;
+        .bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+    }
+    li{
+        list-style: none;
+        padding: 34px 23px;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        margin: 34px 23px;
+        padding: 34px;
+        border: 2px solid red;
+        justify-content: center;
+    }
+    body{
+        background-color: black;
+        color: white;
+        font-size: 34px;
+        font-weight: bold;
+        text-align: center;
+        background: url("https://images.unsplash.com/photo-1608303588026-884930af2559") center center/cover;
+        opacity: light;
+        
+    
+    }
+
+    section:before{
+        content: "this is a content";
+    }
+
+    
+
+    
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">contact us</li>>
+            </ul>
+            
+        </nav>
+        <section>
+            <h3>welcome to codimg world</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non obcaecati vero nisi ad eaque nam numquam nulla rerum deleniti. Dolor vero tenetur voluptas incidunt nostrum veritatis repellendus laboriosam eveniet voluptate?</p>
+        </section>
+        <hr>
+    </header>
+</body>
+</html>

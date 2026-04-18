@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Animations & Keyframes</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: yellow;
+
+        }
+
+        .box{
+            background-color: red;
+            font-size: 50px;
+            font-weight: bold;
+            border: 2px solid black;
+            margin: 34px;
+            padding: 34px;
+            text-align: center;
+            align-items: center;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            animation-name: daniyal32;
+            animation-duration: 2s;
+            animation-iteration-count: 5;
+            /* animation-fill-mode: forwards; */
+            /* animation-timing-function: ease-in-out; */
+            /* animation-delay: initial; */
+            /* animation-direction: unset; */
+
+            
+            /* These properties can be set using this shorthand */
+            /* animation: animation name, animation duration, timimg function, delay, animation iteration sount, animation-fill-mode */
+            animation: daniyal32, 2s, easein-out, intial, 5, forward
+
+        }
+        @keyframes daniyal32 {
+            from{
+                width: 200px;
+            }
+
+            to{
+                width: 1700px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+        this is a box       
+        </div>
+    </div>
+</body>
+</html>
