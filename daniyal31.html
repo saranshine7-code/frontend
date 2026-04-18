@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+h1{
+    text-align: center;
+    background-color: red;
+    font-weight: bold;
+}
+is me jo sirf li k andar p hoga us me ye property apply hogi
+div li p{
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+is me direct jo sirf p k andar hogi property wo sirf apply hogi
+div > p{
+    background-color: pink;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+ is me jo p say phele div waali property hogi us k andar ye apply hoga
+div + p{
+    background-color: brown;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+</style>
+<body>
+    <h1>this is ectra css work</h1>
+    <div class="container">
+    <div class="row">
+        <ul>
+            <li class="item"><p>this is best paragraph</p></li>
+            <li>this will get affected</li>
+            <p>this is on another paragraph</p>
+        </ul>
+        <p>this is a paragraph</p>
+    </div>
+    <p>this is a another paragraph</p>
+    </div>
+    <p>this is a 3rd paragarph</p>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        font-weight: bold;
+        align-items: center;
+        text-align: center;
+      }
+
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url("images/gym.jpg")
+      }
+
+      .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        height: 5px;
+      }
+      .left img {
+        padding: 2px;
+        size: 2px;
+        height: 100px;
+        width: 100px;
+      }
+      .left div {
+        text-align: center;
+      }
+
+      .center {
+        display: block;
+        width: 39%;
+        /* border: 2px solid green; */
+        margin: 10px auto;
+      }
+      .right {
+        /* border: 2px solid yellow; */
+        position: absolute;
+        top: 20px;
+        right: 34px;
+      }
+
+      .right:hover {
+        color: yellow;
+        text-decoration: underline;
+      }
+
+      .navbar {
+        display: inline-block;
+      }
+
+      .navbar li {
+        display: inline-block;
+        margin: 34px;
+        font-size: large;
+        font-weight: bold;
+      }
+
+      .navbar li a {
+        text-decoration: none;
+      }
+      .navbar li a:hover,
+      .navbar li a:active {
+        text-decoration: underline;
+        color: green;
+      }
+      .btn {
+        margin: 24px;
+        padding: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 10px;
+      }
+
+      .container {
+        margin: 41px;
+        padding: 52px;
+        border: 2px solid yellow;
+        border-radius: 19px;
+        width: 35%;
+      }
+
+      .container h1 {
+        text-align: center;
+      }
+
+      .container button {
+        display: block;
+        margin: auto;
+        width: 20%;
+      }
+
+      .form-group input {
+        font-size: 36px;
+        margin: 13px;
+        padding: 49px;
+        text-align: center;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <!-- its for logo -->
+      <div class="left">
+        <img
+          src="https://png.pngtree.com/png-vector/20220623/ourmid/pngtree-food-logo-png-image_5297921.png"
+        />
+        <div>Food website</div>
+      </div>
+      <!-- its for nevigation menue -->
+      <div class="right">
+        <button class="btn">Call Us</button>
+        <button class="btn">Contact us</button>
+      </div>
+      <!-- its for buttons -->
+      <div class="center">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <h1>join the best gym</h1>
+      <form action="noaction.php"></form>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your Name" />
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Gender" />
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Age" />
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Location" />
+      </div>
+      <button class="btn">submit</button>
+    </div>
+  </body>
+</html>

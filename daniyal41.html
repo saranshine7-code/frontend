@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Rows & Gaps in Grid</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-rows: 1fr 4fr 1fr;
+            grid-gap: 2rex;
+            
+        }
+        .box{
+            background-color: red;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            margin: 3px;
+            padding: 3px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="box">this is number-1</div>
+        <div class="box">this is number-2</div>
+        <div class="box">this is number-3</div>
+        <div class="box">this is number-4</div>
+        <div class="box">this is number-5</div>
+        <div class="box">this is number-6</div>
+        <div class="box">this is number-7</div>
+        <div class="box">this is number-8</div>
+        <div class="box">this is number-9</div>
+        <div class="box">this is number-10</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn{
+            background-color: red;
+            color: white;
+            padding: 10px 23px;
+            border: 2px solid black;
+            border-radius: 100px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="conatiner">
+        <h1>this is my heading</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, iusto ab. Praesentium labore eos incidunt enim. Saepe accusamus vel blanditiis et dolorem dolorum eum dolores. Blanditiis repellat, incidunt assumenda, sit unde dolor voluptates illo ullam perferendis sed error, tenetur provident vitae ab rerum quod excepturi corrupti earum? Inventore consequatur enim fugit voluptates itaque, illum fugiat similique illo, quis fuga quo esse. Laboriosam magnam earum unde adipisci, accusamus minus molestiae sequi corporis similique aut deleniti! Soluta delectus ratione veritatis exercitationem nobis? Officia excepturi ad consectetur delectus natus officiis facilis, illum ut libero similique in vel non minima quam! Ipsum doloremque molestiae in repellat voluptate hic, perspiciatis, id debitis modi corporis quam sequi quae vitae pariatur accusantium minima corrupti cum unde, at tempore assumenda? Unde consequatur laudantium voluptate laboriosam itaque id aspernatur! Est, repellat expedita consectetur pariatur obcaecati veritatis vitae dolores nobis, ut quidem ex totam temporibus distinctio eius earum cumque tempora fugit eos necessitatibus vero labore, blanditiis cupiditate unde nesciunt. Nemo voluptatem odit mollitia tempore esse eum atque similique modi doloremque provident corrupti, porro vitae earum recusandae illum commodi fugiat tenetur, veritatis aut illo sunt error. At atque itaque impedit reiciendis possimus vero architecto quidem, aperiam sunt veritatis, consectetur numquam, commodi quasi amet facere sit veniam. Commodi suscipit pariatur non similique. Repudiandae cupiditate rerum necessitatibus veritatis accusamus tenetur, corrupti quidem cum fuga blanditiis illo sint molestiae aliquid error voluptas. Facilis sunt quam error vel officiis exercitationem sequi distinctio repellendus aliquam a, id, fuga neque culpa adipisci perspiciatis nam ipsa atque voluptatum voluptates, quos architecto repellat consectetur accusantium ex. Mollitia suscipit nesciunt dicta, aut sunt laudantium dolorem, vitae, atque commodi non porro!</p>
+    </div>
+    <button id="btn" onclick="togglehide()">show/hide</button>
+    <script>
+        function togglehide(){
+            let btn = document.getElementById("btn");
+            let para = document.getElementById("para");
+            if(para.style.display != "none"){
+            para.style.display = "none";
+        }
+        else{
+            para.style.display = "block";
+            }
+ 
+        }
+
+    </script>
+</body>
+</html>
